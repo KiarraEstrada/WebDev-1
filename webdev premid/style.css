@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(235, 235, 235);
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+
+#header {
+    position: relative;
+}
+
+#logo {
+    text-align: center;
+    padding-top: 60px;
+    color: #fff;
+}
+
+#logo img {
+    border-radius: 50%;
+}
+
+#logo .title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#logo small {
+    font-size: 14px;
+}
+
+.navbar-default {
+    background-color: #fff;
+    border-color: #e7e7e7;
+    margin-top: 20px;
+}
+
+.navbar-nav {
+    padding-left: 0;
+}
+
+.navbar-nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar-nav li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 600;
+}
+
+.navbar-nav li a:hover {
+    color: #007BFF;
+}
+
+#main {
+    margin-top: 40px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.topspace {
+    margin-top: 30px;
+}
+
+.sidebar {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.nav-side {
+    list-style-type: none;
+}
+
+.nav-side li {
+    margin-bottom: 20px;
+}
+
+.nav-side li.active p {
+    color: blue;
+    font-weight: bold;
+}
+
+.nav-side li p {
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.nav-side li p:hover {
+    color: #007BFF;
+}
+
+.maincontent {
+    padding-left: 30px;
+}
+
+.maincontent h3 {
+    margin-top: 20px;
+    color: #333;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.maincontent p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#footer {
+    background-color: #f8f8f8;
+    padding: 30px 0;
+    margin-top: 40px;
+}
+
+.widget-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.widget-body p {
+    font-size: 16px;
+    color: #555;
+}
+
+.widget-body a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.widget-body a:hover {
+    text-decoration: underline;
+}
+
+.follow-me-icons a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 24px;
+}
+
+.follow-me-icons a:hover {
+    color: #007BFF;
+}
+
+#underfooter {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+#underfooter .widget-body p {
+    font-size: 16px;
+    text-align: center;
+}
+
+#underfooter .widget-body p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#underfooter .widget-body p a:hover {
+    color: #007BFF;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    .sidebar {
+        margin-bottom: 20px;
+    }
+
+    .maincontent {
+        padding-left: 0;
+    }
+
+    .navbar-nav li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
